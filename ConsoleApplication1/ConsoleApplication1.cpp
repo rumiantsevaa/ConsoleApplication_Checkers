@@ -161,7 +161,7 @@ int main() {
         // Switch to the other player
         currentPlayer = (currentPlayer == RED) ? BLACK : RED;
     }
-   
+   //Determine the valid moves for each player's pieces based on the rules of checkers. This includes mandatory jumps and multi-jump sequences. (saber with a sword - рубка шашкой, a king - дамка) 
     return 0;
 }
     
